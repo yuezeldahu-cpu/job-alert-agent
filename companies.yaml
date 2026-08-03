@@ -1,0 +1,150 @@
+# Companies to monitor.
+#
+# slug_guesses: possible ATS "company slugs" to try (Greenhouse / Lever / Ashby).
+# The agent auto-detects which one is correct on first run and caches the
+# result in resolved_ats.json, so you rarely need to touch this file.
+#
+# careers_url: fallback link shown in the email if auto-detection fails
+# (e.g. the company uses a custom in-house careers site like Stripe).
+#
+# tier: just for grouping in the email, doesn't affect filtering.
+
+companies:
+  # ---- Tier S ----
+  - name: Character.AI
+    tier: S
+    slug_guesses: [character, character-ai, characterai]
+    careers_url: https://character.ai/careers
+
+  - name: Whatnot
+    tier: S
+    slug_guesses: [whatnot]
+    careers_url: https://www.whatnot.com/careers
+
+  - name: Stripe
+    tier: S
+    slug_guesses: [stripe]
+    careers_url: https://stripe.com/careers/search
+    known_custom: true   # Stripe runs its own careers platform, not a standard ATS
+
+  - name: Ramp
+    tier: S
+    slug_guesses: [ramp]
+    careers_url: https://ramp.com/careers
+
+  - name: Circle
+    tier: S
+    slug_guesses: [circle, circlepay]
+    careers_url: https://www.circle.com/careers
+
+  - name: Lightspark
+    tier: S
+    slug_guesses: [lightspark]
+    careers_url: https://www.lightspark.com/careers
+
+  - name: Whop
+    tier: S
+    slug_guesses: [whop]
+    careers_url: https://whop.com/careers
+
+  - name: Fourthwall
+    tier: S
+    slug_guesses: [fourthwall]
+    careers_url: https://fourthwall.com/careers
+
+  - name: Patreon
+    tier: S
+    slug_guesses: [patreon]
+    careers_url: https://www.patreon.com/careers
+
+  - name: Discord
+    tier: S
+    slug_guesses: [discord]
+    careers_url: https://discord.com/careers
+
+  # ---- Tier A ----
+  - name: Substack
+    tier: A
+    slug_guesses: [substack]
+    careers_url: https://substack.com/careers
+
+  - name: Kajabi
+    tier: A
+    slug_guesses: [kajabi]
+    careers_url: https://kajabi.com/careers
+
+  - name: Plaid
+    tier: A
+    slug_guesses: [plaid]
+    careers_url: https://plaid.com/careers
+
+  - name: Airwallex
+    tier: A
+    slug_guesses: [airwallex]
+    careers_url: https://www.airwallex.com/careers
+
+  - name: Brex
+    tier: A
+    slug_guesses: [brex]
+    careers_url: https://www.brex.com/careers
+
+  - name: Chime
+    tier: A
+    slug_guesses: [chime, chimeinc]
+    careers_url: https://www.chime.com/careers
+
+  - name: Perplexity
+    tier: A
+    slug_guesses: [perplexity, perplexityai, perplexity-ai]
+    careers_url: https://www.perplexity.ai/careers
+
+  - name: ElevenLabs
+    tier: A
+    slug_guesses: [elevenlabs, eleven-labs]
+    careers_url: https://elevenlabs.io/careers
+
+  - name: Runway
+    tier: A
+    slug_guesses: [runwayml, runway]
+    careers_url: https://runwayml.com/careers
+
+  - name: Mercury
+    tier: A
+    slug_guesses: [mercury]
+    careers_url: https://mercury.com/careers
+
+  # ---- Tier B ----
+  - name: OpenAI
+    tier: B
+    slug_guesses: [openai]
+    careers_url: https://openai.com/careers
+
+  - name: Anthropic
+    tier: B
+    slug_guesses: [anthropic]
+    careers_url: https://www.anthropic.com/careers
+
+  - name: Databricks
+    tier: B
+    slug_guesses: [databricks]
+    careers_url: https://www.databricks.com/company/careers
+
+  - name: Scale AI
+    tier: B
+    slug_guesses: [scaleai, scale-ai, scale]
+    careers_url: https://scale.com/careers
+
+  - name: Figma
+    tier: B
+    slug_guesses: [figma]
+    careers_url: https://www.figma.com/careers
+
+  - name: Snap
+    tier: B
+    slug_guesses: [snapinc, snap]
+    careers_url: https://careers.snap.com
+
+  - name: Etsy
+    tier: B
+    slug_guesses: [etsy]
+    careers_url: https://careers.etsy.com
