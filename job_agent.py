@@ -1,6 +1,3 @@
-That's exactly the indentation issue I was worried about. Let's skip manual editing — replace the whole file at once instead.This is the correct, tested version. Instead of manually editing, replace the entire file contents at once — much safer.Here's the full corrected file to paste in:
-
-```python
 #!/usr/bin/env python3
 """
 Job alert agent.
@@ -320,4 +317,3 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
-```
