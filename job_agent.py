@@ -1,3 +1,6 @@
+That's exactly the indentation issue I was worried about. Let's skip manual editing — replace the whole file at once instead.This is the correct, tested version. Instead of manually editing, replace the entire file contents at once — much safer.Here's the full corrected file to paste in:
+
+```python
 #!/usr/bin/env python3
 """
 Job alert agent.
@@ -41,7 +44,11 @@ ROLE_KEYWORDS = [
     "vp of product design",
     "product manager",
 ]
-TITLE_EXCLUDE_KEYWORDS = ["staff product manager"]
+
+# Titles that would otherwise match ROLE_KEYWORDS above but should be filtered out.
+TITLE_EXCLUDE_KEYWORDS = [
+    "staff product manager",
+]
 
 # Postings are INCLUDED if their location text matches one of these...
 US_INCLUDE_PATTERNS = [
@@ -198,7 +205,8 @@ def resolve_company(company, resolved_cache):
 
 def title_matches(title):
     t = title.lower()
-     if any(kw in t for kw in TITLE_EXCLUDE_KEYWORDS): return False
+    if any(kw in t for kw in TITLE_EXCLUDE_KEYWORDS):
+        return False
     return any(kw in t for kw in ROLE_KEYWORDS)
 
 
@@ -312,3 +320,4 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+```
