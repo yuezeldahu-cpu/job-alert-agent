@@ -1,1 +1,86 @@
-{}
+{
+  "Airwallex": {
+    "ats": "ashby",
+    "slug": "airwallex"
+  },
+  "Anthropic": {
+    "ats": "greenhouse",
+    "slug": "anthropic"
+  },
+  "Brex": {
+    "ats": "greenhouse",
+    "slug": "brex"
+  },
+  "Character.AI": {
+    "ats": "ashby",
+    "slug": "character"
+  },
+  "Chime": {
+    "ats": "greenhouse",
+    "slug": "chime"
+  },
+  "Databricks": {
+    "ats": "greenhouse",
+    "slug": "databricks"
+  },
+  "Discord": {
+    "ats": "greenhouse",
+    "slug": "discord"
+  },
+  "ElevenLabs": {
+    "ats": "ashby",
+    "slug": "elevenlabs"
+  },
+  "Figma": {
+    "ats": "greenhouse",
+    "slug": "figma"
+  },
+  "Lightspark": {
+    "ats": "ashby",
+    "slug": "lightspark"
+  },
+  "Mercury": {
+    "ats": "greenhouse",
+    "slug": "mercury"
+  },
+  "OpenAI": {
+    "ats": "ashby",
+    "slug": "openai"
+  },
+  "Patreon": {
+    "ats": "ashby",
+    "slug": "patreon"
+  },
+  "Perplexity": {
+    "ats": "ashby",
+    "slug": "perplexity"
+  },
+  "Plaid": {
+    "ats": "lever",
+    "slug": "plaid"
+  },
+  "Ramp": {
+    "ats": "ashby",
+    "slug": "ramp"
+  },
+  "Runway": {
+    "ats": "ashby",
+    "slug": "runway"
+  },
+  "Scale AI": {
+    "ats": "greenhouse",
+    "slug": "scaleai"
+  },
+  "Stripe": {
+    "ats": "greenhouse",
+    "slug": "stripe"
+  },
+  "Substack": {
+    "ats": "ashby",
+    "slug": "substack"
+  },
+  "Whop": {
+    "ats": "greenhouse",
+    "slug": "whop"
+  }
+}
