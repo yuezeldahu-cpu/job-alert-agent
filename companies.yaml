@@ -170,4 +170,165 @@ companies:
     tier: C
     slug_guesses: [microsoft]
     careers_url: https://careers.microsoft.com
-    known
+    known_custom: true
+
+  - name: Apple
+    tier: C
+    slug_guesses: [apple]
+    careers_url: https://www.apple.com/careers/us/
+    known_custom: true
+
+  - name: Netflix
+    tier: C
+    slug_guesses: [netflix]
+    careers_url: https://jobs.netflix.com
+    known_custom: true
+
+  - name: NVIDIA
+    tier: C
+    slug_guesses: [nvidia]
+    careers_url: https://www.nvidia.com/en-us/about-nvidia/careers/
+    known_custom: true
+
+  - name: ByteDance / TikTok
+    tier: C
+    slug_guesses: [bytedance, tiktok]
+    careers_url: https://jobs.bytedance.com
+    known_custom: true
+
+  - name: Adobe
+    tier: C
+    slug_guesses: [adobe]
+    careers_url: https://careers.adobe.com
+
+  - name: Salesforce
+    tier: C
+    slug_guesses: [salesforce]
+    careers_url: https://careers.salesforce.com
+    known_custom: true
+
+  - name: Uber
+    tier: C
+    slug_guesses: [uber]
+    careers_url: https://www.uber.com/careers
+
+  - name: Airbnb
+    tier: C
+    slug_guesses: [airbnb]
+    careers_url: https://careers.airbnb.com
+
+  - name: Shopify
+    tier: C
+    slug_guesses: [shopify]
+    careers_url: https://www.shopify.com/careers
+
+  - name: Coinbase
+    tier: C
+    slug_guesses: [coinbase]
+    careers_url: https://www.coinbase.com/careers
+
+  - name: Block
+    tier: C
+    slug_guesses: [block, squareup, square]
+    careers_url: https://block.xyz/careers
+
+  - name: PayPal
+    tier: C
+    slug_guesses: [paypal]
+    careers_url: https://careers.pypl.com
+
+  - name: LinkedIn
+    tier: C
+    slug_guesses: [linkedin]
+    careers_url: https://careers.linkedin.com
+    known_custom: true
+
+  - name: Roblox
+    tier: C
+    slug_guesses: [roblox]
+    careers_url: https://careers.roblox.com
+
+  - name: Pinterest
+    tier: C
+    slug_guesses: [pinterest]
+    careers_url: https://www.pinterestcareers.com
+
+  - name: Reddit
+    tier: C
+    slug_guesses: [reddit]
+    careers_url: https://www.redditinc.com/careers
+
+  - name: Spotify
+    tier: C
+    slug_guesses: [spotify]
+    careers_url: https://www.lifeatspotify.com/jobs
+    known_custom: true
+
+  - name: DoorDash
+    tier: C
+    slug_guesses: [doordash, doordashusa]
+    careers_url: https://careers.doordash.com
+
+  - name: Instacart
+    tier: C
+    slug_guesses: [instacart]
+    careers_url: https://instacart.careers
+
+  - name: eBay
+    tier: C
+    slug_guesses: [ebay]
+    careers_url: https://careers.ebayinc.com
+    known_custom: true
+
+  - name: Walmart Global Tech
+    tier: C
+    slug_guesses: [walmart, walmartglobaltech]
+    careers_url: https://tech.walmart.com/careers
+    known_custom: true
+
+  - name: Twitch
+    tier: C
+    slug_guesses: [twitch]
+    careers_url: https://www.twitch.tv/jobs
+    known_custom: true
+
+  - name: Samsung Electronics
+    tier: C
+    slug_guesses: [samsung]
+    careers_url: https://www.samsung.com/us/careers/
+    known_custom: true
+
+  - name: Zoom
+    tier: C
+    slug_guesses: [zoom]
+    careers_url: https://careers.zoom.us
+
+  - name: Notion
+    tier: C
+    slug_guesses: [notion, notionso]
+    careers_url: https://www.notion.so/careers
+
+  - name: Canva
+    tier: C
+    slug_guesses: [canva]
+    careers_url: https://www.canva.com/careers/
+
+  - name: Datadog
+    tier: C
+    slug_guesses: [datadog, datadoghq]
+    careers_url: https://careers.datadoghq.com
+
+  - name: Snowflake
+    tier: C
+    slug_guesses: [snowflake, snowflakecomputing]
+    careers_url: https://careers.snowflake.com
+
+  - name: Cloudflare
+    tier: C
+    slug_guesses: [cloudflare]
+    careers_url: https://www.cloudflare.com/careers/
+
+  - name: Palantir
+    tier: C
+    slug_guesses: [palantir]
+    careers_url: https://www.palantir.com/careers/
