@@ -5,9 +5,17 @@
 # result in resolved_ats.json, so you rarely need to touch this file.
 #
 # careers_url: fallback link shown in the email if auto-detection fails
-# (e.g. the company uses a custom in-house careers site like Stripe).
+# (e.g. the company uses a custom in-house careers site like Stripe, or a
+# big-company platform like Workday, which this agent doesn't auto-query).
 #
 # tier: just for grouping in the email, doesn't affect filtering.
+#
+# Note on sub-brands: some companies you listed hire through a parent
+# company's single careers site rather than their own (e.g. Instagram/
+# WhatsApp -> Meta, YouTube/Google Pay/Google Wallet -> Google, Slack ->
+# Salesforce, Amazon Pay/Twitch -> Amazon in most regions). Those are folded
+# into the parent entry below instead of added as separate non-functional
+# slugs. Twitch does run its own careers site, so it gets its own entry.
 
 companies:
   # ---- Tier S ----
@@ -25,17 +33,12 @@ companies:
     tier: S
     slug_guesses: [stripe]
     careers_url: https://stripe.com/careers/search
-    known_custom: true   # Stripe runs its own careers platform, not a standard ATS
+    known_custom: true
 
   - name: Ramp
     tier: S
     slug_guesses: [ramp]
     careers_url: https://ramp.com/careers
-
-  - name: Circle
-    tier: S
-    slug_guesses: [circle, circlepay]
-    careers_url: https://www.circle.com/careers
 
   - name: Lightspark
     tier: S
@@ -46,11 +49,6 @@ companies:
     tier: S
     slug_guesses: [whop]
     careers_url: https://whop.com/careers
-
-  - name: Fourthwall
-    tier: S
-    slug_guesses: [fourthwall]
-    careers_url: https://fourthwall.com/careers
 
   - name: Patreon
     tier: S
@@ -148,3 +146,28 @@ companies:
     tier: B
     slug_guesses: [etsy]
     careers_url: https://careers.etsy.com
+
+  # ---- Tier C: big tech / public companies ----
+  - name: Meta
+    tier: C
+    slug_guesses: [meta, metacareers]
+    careers_url: https://www.metacareers.com
+    known_custom: true
+
+  - name: Google
+    tier: C
+    slug_guesses: [google, alphabet]
+    careers_url: https://www.google.com/about/careers/applications
+    known_custom: true
+
+  - name: Amazon
+    tier: C
+    slug_guesses: [amazon]
+    careers_url: https://www.amazon.jobs
+    known_custom: true
+
+  - name: Microsoft
+    tier: C
+    slug_guesses: [microsoft]
+    careers_url: https://careers.microsoft.com
+    known
