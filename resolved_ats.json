@@ -1,4 +1,8 @@
 {
+  "Airbnb": {
+    "ats": "greenhouse",
+    "slug": "airbnb"
+  },
   "Airwallex": {
     "ats": "ashby",
     "slug": "airwallex"
@@ -6,6 +10,10 @@
   "Anthropic": {
     "ats": "greenhouse",
     "slug": "anthropic"
+  },
+  "Block": {
+    "ats": "greenhouse",
+    "slug": "block"
   },
   "Brex": {
     "ats": "greenhouse",
@@ -19,13 +27,29 @@
     "ats": "greenhouse",
     "slug": "chime"
   },
+  "Cloudflare": {
+    "ats": "greenhouse",
+    "slug": "cloudflare"
+  },
+  "Coinbase": {
+    "ats": "greenhouse",
+    "slug": "coinbase"
+  },
   "Databricks": {
     "ats": "greenhouse",
     "slug": "databricks"
   },
+  "Datadog": {
+    "ats": "greenhouse",
+    "slug": "datadog"
+  },
   "Discord": {
     "ats": "greenhouse",
     "slug": "discord"
+  },
+  "DoorDash": {
+    "ats": "greenhouse",
+    "slug": "doordashusa"
   },
   "ElevenLabs": {
     "ats": "ashby",
@@ -35,17 +59,33 @@
     "ats": "greenhouse",
     "slug": "figma"
   },
+  "Instacart": {
+    "ats": "greenhouse",
+    "slug": "instacart"
+  },
   "Lightspark": {
     "ats": "ashby",
     "slug": "lightspark"
+  },
+  "LinkedIn": {
+    "ats": "greenhouse",
+    "slug": "linkedin"
   },
   "Mercury": {
     "ats": "greenhouse",
     "slug": "mercury"
   },
+  "Notion": {
+    "ats": "ashby",
+    "slug": "notion"
+  },
   "OpenAI": {
     "ats": "ashby",
     "slug": "openai"
+  },
+  "Palantir": {
+    "ats": "lever",
+    "slug": "palantir"
   },
   "Patreon": {
     "ats": "ashby",
@@ -55,6 +95,10 @@
     "ats": "ashby",
     "slug": "perplexity"
   },
+  "Pinterest": {
+    "ats": "greenhouse",
+    "slug": "pinterest"
+  },
   "Plaid": {
     "ats": "lever",
     "slug": "plaid"
@@ -62,6 +106,14 @@
   "Ramp": {
     "ats": "ashby",
     "slug": "ramp"
+  },
+  "Reddit": {
+    "ats": "greenhouse",
+    "slug": "reddit"
+  },
+  "Roblox": {
+    "ats": "greenhouse",
+    "slug": "roblox"
   },
   "Runway": {
     "ats": "ashby",
@@ -71,6 +123,14 @@
     "ats": "greenhouse",
     "slug": "scaleai"
   },
+  "Snowflake": {
+    "ats": "ashby",
+    "slug": "snowflake"
+  },
+  "Spotify": {
+    "ats": "lever",
+    "slug": "spotify"
+  },
   "Stripe": {
     "ats": "greenhouse",
     "slug": "stripe"
@@ -78,6 +138,10 @@
   "Substack": {
     "ats": "ashby",
     "slug": "substack"
+  },
+  "Twitch": {
+    "ats": "greenhouse",
+    "slug": "twitch"
   },
   "Whop": {
     "ats": "greenhouse",
