@@ -41,6 +41,7 @@ ROLE_KEYWORDS = [
     "vp of product design",
     "product manager",
 ]
+TITLE_EXCLUDE_KEYWORDS = ["staff product manager"]
 
 # Postings are INCLUDED if their location text matches one of these...
 US_INCLUDE_PATTERNS = [
@@ -197,6 +198,7 @@ def resolve_company(company, resolved_cache):
 
 def title_matches(title):
     t = title.lower()
+     if any(kw in t for kw in TITLE_EXCLUDE_KEYWORDS): return False
     return any(kw in t for kw in ROLE_KEYWORDS)
 
 
