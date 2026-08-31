@@ -167,6 +167,7 @@
   "greenhouse:chime:8694087002": true,
   "greenhouse:chime:8751073002": true,
   "greenhouse:cloudflare:8064473": true,
+  "greenhouse:cloudflare:8164269": true,
   "greenhouse:coinbase:7701642": true,
   "greenhouse:coinbase:7789404": true,
   "greenhouse:coinbase:7991474": true,
@@ -369,5 +370,6 @@
   "lever:spotify:7f870908-eeb0-43ee-90be-46f19bcd4b85": true,
   "lever:spotify:a025cf69-f8c6-4873-9a8b-7ca6b1fbe9fd": true,
   "lever:spotify:a88002db-cb15-49f4-a0e7-efc5c79c347b": true,
+  "lever:spotify:e86f298c-7568-44c5-ba20-3568ce6d1068": true,
   "lever:spotify:fc779380-7e9c-48be-a730-e789fed1879e": true
 }
