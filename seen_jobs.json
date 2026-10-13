@@ -117,6 +117,7 @@
   "ashby:snowflake:15d2f360-2670-4ea2-bfc3-b26407bd6eea": true,
   "ashby:snowflake:17502002-8d67-4697-aeb8-b6555ebb7094": true,
   "ashby:snowflake:1e66256e-aa85-4eba-9312-fbcccffc1f52": true,
+  "ashby:snowflake:3c565761-4ce8-40f4-a346-1997b117afbc": true,
   "ashby:snowflake:4dccc2f2-48b2-4c2e-ae37-c7368e77a6d6": true,
   "ashby:snowflake:53777cce-92ea-47dd-b9d3-7dc4c8db26ec": true,
   "ashby:snowflake:5b04d532-df08-4d10-af9b-3028037e7d8b": true,
@@ -230,6 +231,7 @@
   "greenhouse:chime:8831472002": true,
   "greenhouse:cloudflare:8064473": true,
   "greenhouse:cloudflare:8164269": true,
+  "greenhouse:cloudflare:8166601": true,
   "greenhouse:cloudflare:8239352": true,
   "greenhouse:cloudflare:8243552": true,
   "greenhouse:coinbase:7701642": true,
@@ -487,6 +489,7 @@
   "lever:spotify:7f870908-eeb0-43ee-90be-46f19bcd4b85": true,
   "lever:spotify:a025cf69-f8c6-4873-9a8b-7ca6b1fbe9fd": true,
   "lever:spotify:a88002db-cb15-49f4-a0e7-efc5c79c347b": true,
+  "lever:spotify:c5c82f59-504f-47f4-961e-a2d50a248357": true,
   "lever:spotify:e86f298c-7568-44c5-ba20-3568ce6d1068": true,
   "lever:spotify:fc779380-7e9c-48be-a730-e789fed1879e": true
 }
